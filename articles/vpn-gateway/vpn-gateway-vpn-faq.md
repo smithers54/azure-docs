@@ -172,6 +172,10 @@ Other software VPN solutions should work with our gateway as long as they confor
 
 You can change the authentication method for your point-to-site connections by going to the **Point-to-site configuration** section under the VPN Gateway and checking the desired radio button. Current options are **Azure certificate, RADIUS authentication and Azure Active Directory**. Please note that current clients **may not be able to connect** after the change until the new profile has been downloaded and configured on the client.
 
+## Can I use Azure AD authentication for Mac clients?
+
+No, currently Azure AD authentication is only available through Windows machines using the Azure VPN client from the Windows store.
+
 ## <a name="P2S"></a>Point-to-Site using native Azure certificate authentication
 
 This section applies to the Resource Manager deployment model.
