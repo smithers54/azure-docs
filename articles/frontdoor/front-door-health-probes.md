@@ -24,6 +24,9 @@ In order to determine the health and proximity of each backend from a given Fron
 
 Front Door supports sending probes over either HTTP or HTTPS protocols.​ These probes are sent over the same TCP ports configured for routing client requests, and cannot be overridden.
 
+> [!NOTE]
+> If using HTTPS as the probe protocol, a signed public CA must be used on the origin or else the HTTPS probe will fail.
+
 ## Supported HTTP methods for health probes
 
 Front Door supports the following HTTP methods for sending the health probes:
