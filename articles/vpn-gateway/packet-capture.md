@@ -16,6 +16,9 @@ Connectivity and performance-related problems are often complex. It can take sig
 
 There are some commonly available packet capture tools. Getting relevant packet captures with these tools can be cumbersome, especially in high-volume traffic scenarios. The filtering capabilities provided by Azure VPN Gateway packet capture are a major differentiator. You can use VPN Gateway packet capture together with commonly available packet capture tools.
 
+>[!NOTE]
+>Packet captures can only be performed on Route-Based Dynamic Gateways. Static Gateways are currently unsupported.
+
 ## VPN Gateway packet capture filtering capabilities
 
 You can run VPN Gateway packet capture on the gateway or on a specific connection, depending on your needs. You can also run packet capture on multiple tunnels at the same time. You can capture one-way or bi-directional traffic, IKE and ESP traffic, and inner packets along with filtering on a VPN gateway.
