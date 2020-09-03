@@ -177,6 +177,9 @@ The following instructions were created through strongSwan 5.5.1 on Ubuntu 17.0.
 You can create VPN client configuration files for RADIUS certificate authentication that uses the EAP-TLS protocol. Typically, an enterprise-issued certificate is used to authenticate a user for VPN. Make sure that all connecting users have a certificate installed on their devices, and that your RADIUS server can validate the certificate.
 
 >[!NOTE]
+>User certificates must be used, a machine certificate will not work for RADIUS auth with Azure VPN Gateway.
+
+>[!NOTE]
 >[!INCLUDE [TLS](../../includes/vpn-gateway-tls-change.md)]
 >
 
