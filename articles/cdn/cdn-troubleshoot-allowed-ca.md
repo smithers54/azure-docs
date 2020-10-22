@@ -27,5 +27,9 @@ You must meet specific certificate requirements when you [enable the HTTPS featu
 > The option of using your own certificate to enable the custom domain HTTPS feature is *not* available for **Azure CDN Standard from Akamai** profiles. 
 >
 
+> [!NOTE]
+> The use of a self-signed certificate on the origin is not supported with **Microsoft CDN**.
+>
+
 [!INCLUDE [cdn-front-door-allowed-ca](../../includes/cdn-front-door-allowed-ca.md)]
 
